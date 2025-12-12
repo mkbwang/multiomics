@@ -4,3 +4,5 @@
 *.Rproj
 *.xlsx
 *.Rproj.user/
+.Rproj.user
+*.png
