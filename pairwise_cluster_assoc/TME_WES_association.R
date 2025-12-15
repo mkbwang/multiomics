@@ -40,7 +40,7 @@ binned <- cut(all_dists, breaks = breaks, include.lowest = TRUE)
 df <- data.frame(bin = binned)
 ggplot(df, aes(x = bin)) +
     geom_bar() +
-    xlab("Bray Curtis Distance Range") +
+    xlab("Jaccard Distance Range") +
     ylab("Count") +
     theme_bw()
 
